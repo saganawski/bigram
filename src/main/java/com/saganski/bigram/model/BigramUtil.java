@@ -33,6 +33,10 @@ public class BigramUtil {
 			
 		}catch(IOException io) {
 			io.printStackTrace();
+			System.out.println("*****************************************************************************************************");
+			System.out.println("******************** ERROR ********************");
+			System.out.println("Unable to parse file type \n");
+			System.out.println("*****************************************************************************************************");
 			return parsedFileLines;
 		}
 		
